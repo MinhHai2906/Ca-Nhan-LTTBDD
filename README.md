@@ -11,11 +11,17 @@ Trường: Đại học giao thông vận tải
 Cấu Trúc Thư Mục Tổng Quan
 
 ├── Tuan1
+
 │   ├── Baitapcode
+
 │   ├── Bai2 
+
 |        ├── fileword-chứa câu hỏi
+
 │   
+
 │
+
 └── README.md
 
 Nội Dung Chi Tiết Từng Tuần
