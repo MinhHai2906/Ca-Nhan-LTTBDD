@@ -41,11 +41,11 @@ File README.md mô tả chi tiết.
 
 Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng kiến thức.
 
-1 Mong muốn và định hướng của Bạn là gì sau khi học xong môn học là gì?
+## 1 Mong muốn và định hướng của Bạn là gì sau khi học xong môn học là gì?
 
-2 Theo bạn, trong tương lai gần (10 năm) lập trình di động có phát triển không? Giải thích tại sao?
+## 2 Theo bạn, trong tương lai gần (10 năm) lập trình di động có phát triển không? Giải thích tại sao?
 
-3 Viết một ứng dụng có UI như sau đẩy lên github(Baitapcode)
+## 3 Viết một ứng dụng có UI như sau đẩy lên github(Baitapcode)
 
 
 
@@ -54,11 +54,13 @@ Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng
 
 # Tuần 2
 
-Bài tập 1 xây dựng màn hình nhập số và in ra cột 
+## Bài tập 1 xây dựng màn hình nhập số và in ra cột 
 
 <img width="2818" height="1592" alt="image" src="https://github.com/user-attachments/assets/eb988b28-7591-4abe-8fcd-df527127a005" />
 
-Bài tập 2 xây dựng màn hình Tính toán # ( + - * /)
+
+## Bài tập 2 xây dựng màn hình Tính toán  ( + - * /)
 
 <img width="2830" height="1586" alt="image" src="https://github.com/user-attachments/assets/71fc4cae-6ebc-4e7e-bfc7-7eb6dff31359" />
+
 
