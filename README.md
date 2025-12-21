@@ -20,10 +20,22 @@ Cấu Trúc Thư Mục Tổng Quan
 
 │── #Tuan 2
 
-│        ├── Android-1-Tuan1
+│        ├── Android-1-Tuan2
 
 |        ├── Androi2-Tuan-2
 
+|
+── #Tuan 3
+
+│        ├── Android-1-Tuan3
+
+|        ├── Androi2-Tuan-3
+
+|        ├── Androi3-Tuan-3
+
+|        ├── File video
+
+|        ├── Bai1-Tuan3.txt
 
 └── #README.md
 
@@ -62,5 +74,20 @@ Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng
 ## Bài tập 2 xây dựng màn hình Tính toán  ( + - * /)
 
 <img width="2830" height="1586" alt="image" src="https://github.com/user-attachments/assets/71fc4cae-6ebc-4e7e-bfc7-7eb6dff31359" />
+
+# Tuần 3
+
+## Bài 1 Tìm hiểu về Nullable
+
+<img width="2822" height="1572" alt="image" src="https://github.com/user-attachments/assets/e51f01a3-29a2-49d5-a394-b65de5e0516a" />
+
+## Bài 2 OOP về phương thức thanh toán
+
+<img width="2824" height="1582" alt="image" src="https://github.com/user-attachments/assets/907aec9f-d1a7-4b51-bcde-0973472a2f92" />
+
+## Bài 3 OOP Về mượn sách 
+
+<img width="2820" height="1594" alt="image" src="https://github.com/user-attachments/assets/19c61d97-d66e-40f0-b2e6-61a9b1f4cff1" />
+
 
 
