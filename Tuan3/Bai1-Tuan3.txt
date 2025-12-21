@@ -1,0 +1,73 @@
+1 NULLABLE là gì?
+
+Khi một biến không nullable thì nó yêu cầu biến đó luôn phải có giá trị; nếu không có dữ liệu hoặc gán null thì chương trình sẽ báo lỗi.
+Còn khi biến là nullable thì nó cho phép không có dữ liệu (có thể null), khi đó giá trị của biến sẽ là null và không gây lỗi ngay lập tức.
+
+2 KHI NÀO NÊN / KHÔNG NÊN DÙNG NULLABLE?
+
+2.1️ Dùng nullable khi:
+Chỉ dùng nullable cho những dữ liệu có thể không có mà hệ thống vẫn chạy bình thường.
+
+ví dụ
+(Ảnh đại diện người dùng, Ghi chú đơn hàng, Mô tả sản phẩm, Mã giảm giá)
+
+2.2 Không dùng nullable khi:
+không dùng nullable cho những dữ liệu bắt buộc để xử lý chức năng chính của ứng dụng.
+
+ví dụ 
+(Tên người dùng, Mật khẩu, Giá sản phẩm, Số lượng sản phẩm, Mã đơn hàng)
+
+3 CÁC CÁCH XỬ LÝ NULL (? , ?. , ?: , let , !!)
+
+3.1 ?
+Ý nghĩa
+Dấu ? dùng để cho phép biến có thể là null. Nếu không có ? → biến bắt buộc phải có giá trị
+
+Ví dụ
+var name: String? = null   // nullable
+var age: Int = 18          // không nullable
+
+3.2 ?.
+Ý nghĩa
+Chỉ thực hiện khi không null, nếu null thì bỏ qua, không lỗi
+
+Ví dụ
+name?.length
+
+Nếu name ≠ null → trả về độ dài
+Nếu name = null → trả về null
+
+Khi chỉ muốn dùng nếu có dữ liệu. Không muốn chương trình bị lỗi
+
+3.3 ?:
+Ý nghĩa
+Nếu bên trái là null → dùng giá trị thay thế
+
+Ví dụ
+val length = name?.length ?: 0
+
+Có name suy ra length
+
+Không có thì lấy 0
+
+3.4 let
+Ý nghĩa
+Thực hiện một khối lệnh khi biến không null
+
+Ví dụ
+name?.let {
+    println(it.length)
+}
+
+Nếu name ≠ null → chạy trong let
+Nếu name = null → không làm gì
+
+3.5 !!
+Ý nghĩa
+Ép code tin rằng chắc chắn không null
+
+Ví dụ
+name!!.length
+
+Nếu name ≠ null → OK
+Nếu name = null → lỗi
