@@ -64,6 +64,7 @@ Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng
 <img width="246" height="502" alt="image" src="https://github.com/user-attachments/assets/9cee04b0-8e83-4403-b5af-d8a2ce127b21" />
 
 
+
 # Tuần 2
 
 ## Bài tập 1 xây dựng màn hình nhập số và in ra cột 
@@ -74,6 +75,8 @@ Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng
 ## Bài tập 2 xây dựng màn hình Tính toán  ( + - * /)
 
 <img width="2830" height="1586" alt="image" src="https://github.com/user-attachments/assets/71fc4cae-6ebc-4e7e-bfc7-7eb6dff31359" />
+
+
 
 # Tuần 3
 
