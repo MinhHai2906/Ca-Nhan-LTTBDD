@@ -45,7 +45,6 @@ fun AppNavigation(viewModel: DataViewModel = viewModel()) {
                 pagescreen = page2(),
                 onNextClick = { navController.navigate("page3") },
                 onBackClick = { navController.popBackStack() },
-                // Data Binding
                 currentPasscode = uiState.passcode,
                 onPasscodeChange = { viewModel.updatePasscode(it) }
             )
@@ -55,7 +54,6 @@ fun AppNavigation(viewModel: DataViewModel = viewModel()) {
                 pagescreen = page3(),
                 onNextClick = { navController.navigate("page4") },
                 onBackClick = { navController.popBackStack() },
-
                 currentPassword = uiState.password,
                 onPasswordChange = { viewModel.updatePassword(it) }
             )
@@ -64,12 +62,8 @@ fun AppNavigation(viewModel: DataViewModel = viewModel()) {
             Class4PageUi(
                 pagescreen = page4(),
                 onNextClick = {
-
                     viewModel.submitData()
-
-                    viewModel.resetData() 
-                    
-
+                    viewModel.resetData()
                     navController.navigate("page1") {
                         popUpTo("page1") { inclusive = true }
                     }
