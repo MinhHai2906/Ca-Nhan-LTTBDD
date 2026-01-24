@@ -8,89 +8,39 @@ Môn học: Lập trình thiết bị di động
 
 Trường: Đại học giao thông vận tải
 
-Cấu Trúc Thư Mục Tổng Quan
 
-├── #Tuan 1
-
-│        ├── Androi-Tuan1
-
-│        ├── Anh-Tuan1.png 
-
-|        ├── Câu_hỏi_tuần1.docx
-
-│── #Tuan 2
-
-│        ├── Android-1-Tuan2
-
-|        ├── Androi2-Tuan-2
-
-|
-── #Tuan 3
-
-│        ├── Android-1-Tuan3
-
-|        ├── Androi2-Tuan-3
-
-|        ├── Androi3-Tuan-3
-
-|        ├── File video
-
-|        ├── Bai1-Tuan3.txt
-
-└── #README.md
-
-# Cấu trúc thư mục:
-
-Gồm có 1 Folder Tuan1 và file README.md.
-
-Folder Tuan1 là nơi chứa các bài code androi studio, ảnh khi làm xong và file docx chứa câu trả lời cho tuần 1.
-
-File README.md mô tả chi tiết.
 
 # Nội Dung Chi Tiết Từng Tuần
 
-# Tuần 1 – Làm quen & Kiến thức cơ bản
-
-Tuần 1 gồm các bài tập giúp làm quen với môn học và nền tảng kiến thức.
-
-## 1 Mong muốn và định hướng của Bạn là gì sau khi học xong môn học là gì?
-
-## 2 Theo bạn, trong tương lai gần (10 năm) lập trình di động có phát triển không? Giải thích tại sao?
-
-## 3 Viết một ứng dụng có UI như sau đẩy lên github(Baitapcode)
+Bài tập:
+### **Tuần 1:** Trả lời câu hỏi, làm bài tập, chọn đề tài, lên ý tưởng, nghiên cứu phân tích và cho ra toàn bộ thiết kế.
+<img width="2614" height="1482" alt="image" src="https://github.com/user-attachments/assets/82ca2505-5c03-4d44-a38d-f63d8a8b933b" />
+<img width="2604" height="1470" alt="image" src="https://github.com/user-attachments/assets/0dcd29d6-cb4e-451e-951e-29c6d29a42f1" />
 
 
+### **Tuần 2:** Tạo giao diện nhập số để tạo các ô tương ứng, nhập số để tính 2 con số được nhập.
+<img width="2818" height="1592" alt="image" src="https://github.com/user-attachments/assets/ad487113-d572-4c8d-83d5-aad76084f520" />
 
-<img width="246" height="502" alt="image" src="https://github.com/user-attachments/assets/9cee04b0-8e83-4403-b5af-d8a2ce127b21" />
+<img width="2802" height="1584" alt="image" src="https://github.com/user-attachments/assets/37f85503-14dd-4c77-a143-35a8aed17c45" />
 
+<img width="2830" height="1586" alt="image" src="https://github.com/user-attachments/assets/ba0f9851-d075-4ca9-8ef8-9c74ab562650" />
 
+### **Tuần 3:** 
+<img width="2822" height="1572" alt="image" src="https://github.com/user-attachments/assets/e23833dd-9500-4f52-b235-9dcedbbc0c23" />
 
-# Tuần 2
+<img width="2824" height="1582" alt="image" src="https://github.com/user-attachments/assets/a20b8f15-076a-4209-bda1-a7418c18aac9" />
 
-## Bài tập 1 xây dựng màn hình nhập số và in ra cột 
+<img width="2820" height="1594" alt="image" src="https://github.com/user-attachments/assets/afb05079-3236-48e3-a4da-5c3fd7ac20b0" />
 
-<img width="2818" height="1592" alt="image" src="https://github.com/user-attachments/assets/eb988b28-7591-4abe-8fcd-df527127a005" />
+### **Tuần 4:** 
+ <img width="2560" height="1431" alt="image" src="https://github.com/user-attachments/assets/3afb3f13-7993-4618-8af8-8ae2829b9d44" />
 
+ <img width="2560" height="1436" alt="image" src="https://github.com/user-attachments/assets/1b4f97be-5729-44b5-82f5-6b8bf8aef2b1" />
+ 
+### **Tuần 5:** 
+<img width="2818" height="1594" alt="image" src="https://github.com/user-attachments/assets/73f9b4e2-e722-4d1f-97a4-2676891da270" />
 
-## Bài tập 2 xây dựng màn hình Tính toán  ( + - * /)
-
-<img width="2830" height="1586" alt="image" src="https://github.com/user-attachments/assets/71fc4cae-6ebc-4e7e-bfc7-7eb6dff31359" />
-
-
-
-# Tuần 3
-
-## Bài 1 Tìm hiểu về Nullable
-
-<img width="2822" height="1572" alt="image" src="https://github.com/user-attachments/assets/e51f01a3-29a2-49d5-a394-b65de5e0516a" />
-
-## Bài 2 OOP về phương thức thanh toán
-
-<img width="2824" height="1582" alt="image" src="https://github.com/user-attachments/assets/907aec9f-d1a7-4b51-bcde-0973472a2f92" />
-
-## Bài 3 OOP Về mượn sách 
-
-<img width="2820" height="1594" alt="image" src="https://github.com/user-attachments/assets/19c61d97-d66e-40f0-b2e6-61a9b1f4cff1" />
+<img width="2816" height="1588" alt="image" src="https://github.com/user-attachments/assets/13b8436f-9d4c-4d6e-afcc-47709d6f223f" />
 
 
 
