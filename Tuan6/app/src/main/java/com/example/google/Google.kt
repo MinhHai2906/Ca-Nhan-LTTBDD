@@ -36,7 +36,6 @@ import kotlinx.coroutines.launch
 fun PageGG(onLoginSuccess: () -> Unit) {
     val context = LocalContext.current
     val coroutineScope = rememberCoroutineScope()
-    // Cast Context to Activity to pass to GoogleAuthClient
     val activity = context as? Activity
     
     val googleAuthClient = remember { 
@@ -98,13 +97,13 @@ fun PageGG(onLoginSuccess: () -> Unit) {
             onClick = {
                 if (googleAuthClient != null) {
                     coroutineScope.launch {
-                        // Gọi signIn trả về FirebaseUser?
+
                         val user = googleAuthClient.signIn()
                         if (user != null) {
                             Toast.makeText(context, "Đăng nhập thành công: ${user.displayName}", Toast.LENGTH_SHORT).show()
                             onLoginSuccess()
                         } else {
-                            // Toast lỗi đã được hiển thị bên trong signIn()
+
                         }
                     }
                 } else {
