@@ -27,7 +27,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             this, 0, intent, PendingIntent.FLAG_ONE_SHOT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        // Quản lý thông báo
+        
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
         // Tạo kênh thông báo
@@ -40,7 +40,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             notificationManager.createNotificationChannel(channel)
         }
 
-        // Xây dựng giao diện thông báo
+       
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setContentTitle(title)
@@ -49,11 +49,11 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setContentIntent(pendingIntent)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
 
-        // Hiển thị
+        
         notificationManager.notify(Random.nextInt(), notificationBuilder.build())
     }
 
-    // Hàm này chạy khi Token thay đổi
+   
     override fun onNewToken(token: String) {
         super.onNewToken(token)
         println("FCM Token mới: $token")
